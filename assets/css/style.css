@@ -274,18 +274,37 @@ h1{
 
 @media screen and (max-width: 640px) {
 
-    #aboutme {
+  #aboutme {
         width: 100%;
         padding: 20px;
+    }
+
+    .links {
+        margin-left: 95px;
+        background-color: white;
+          width: 100%;
+        padding: 20px;
+    }
     }
 
     header {
         position: static;
     }
+
+    h1{
+     width:75%;
+        text-align:center;
+    }
     .conn {
         width: 600px;
         margin: 25px auto;
         
-
     }
-}
+
+    #connect {
+        margin-bottom: 100px;
+    }
+    .form {
+        width:50%;
+        margin-top:40px;
+    }
