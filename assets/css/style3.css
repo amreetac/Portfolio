@@ -99,7 +99,7 @@ a:hover {
 
 #port {
     width: 45%;
-    height: 800px;
+    height: 1350px;
     margin-left: 10%;
     margin-bottom: 20px;
     padding: 50px;
@@ -229,16 +229,20 @@ input[type=submit] {
     width: 178.63px;
     height: 193.53px;
     margin-top: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
+    margin-left: 70px;
     padding: 10px;
     text-align: center;
     }
-
     #port {
         width: 30%;
         height: 1350px;
         padding: 10px;
 
+    }
+    .form {
+        width: 35%;
+        padding:20px;
     }
 
     .Left-side {
@@ -260,12 +264,19 @@ h1{
     
     .conn {
     
-     bottom: 0, right: 0, position: absolute, z-index: auto;
+    margin-left: 40px;
+
     }
 
     #connect {
         float: none;
+
           
+    }
+
+    .form {
+        float:none;
+
     }
 
 
@@ -279,13 +290,32 @@ h1{
         padding: 20px;
     }
 
+    .links {
+        margin-left: 95px;
+        background-color: white;
+          width: 100%;
+        padding: 20px;
+    }
+    }
+
     header {
         position: static;
+    }
+
+    h1{
+     width:75%;
+        text-align:center;
     }
     .conn {
         width: 600px;
         margin: 25px auto;
         
-
     }
-}
+
+    #connect {
+        margin-bottom: 100px;
+    }
+    .form {
+        width:50%;
+        margin-top:40px;
+    }
