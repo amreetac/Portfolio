@@ -185,47 +185,99 @@ input[type=submit] {
 /* Example
 
 
-@media screen and (max-width: 768px) {
+#aboutme {
+    width: 45%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    padding: 50px;
+    background-color:#ffffff;
 
-    body {
-        background-color: #333;
-    }
+    /*attempt to put space between heading
+    and border on below line 
+    padding-bottom: 30px
 
-    .wrapper {
-        width: 600px;
-    }
+    .conn {
+    float: right;
+    width: 12.5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 53px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color:#ffffff;
+    line-height: 1.5;
 }
 
+
+.connect{
+
+    border-style: groove;
+    border-color: gray;
+    background-color: #ffffff;
+    float: left;
+    width: 12.5%;
+    padding: 20px;
+    padding-bottom: 30px;
 */
 
 @media screen and (max-width: 980px) {
 
+    h1{
+        width:35%;
+        text-align:center;
+        }
+
     #aboutme {
-        width: 100%;
+        width: 35%;
         padding: 20px;
     }
+    
     .conn {
-        width: 100%;
+    width: 178.63px;
+    height: 193.53px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding: 10px;
+    text-align: center;
     }
-    .conn {
-        margin-top: 40px;
+
+    #port {
+        width: 30%;
+        height: 1350px;
+        padding: 10px;
+
     }
+
+    .Left-side {
+        align-content: center;
     }
 }
 
 @media screen and (max-width: 768px) {
+h1{
+        width:40%;
+        text-align:center;
+        }
 
     #aboutme {
-        width: 100%;
+        width: 80%;
+        height: 30%;
         padding: 20px;
     }
-       .conn {
-        width: 100%;
-    }
+    
     .conn {
-        margin-top: 40px;
+    
+     bottom: 0, right: 0, position: absolute, z-index: auto;
     }
+
+    #connect {
+        float: none;
+          
+    }
+
+
 }
+
 
 @media screen and (max-width: 640px) {
 
@@ -235,13 +287,12 @@ input[type=submit] {
     }
 
     header {
-        postion: static;
+        position: static;
     }
     .conn {
-        width: 100%;
-    }
-    .conn {
-        margin-top: 40px;
+        width: 600px;
+        margin: 25px auto;
+        
 
     }
 }
