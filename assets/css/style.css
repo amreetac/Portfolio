@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -182,36 +183,6 @@ input[type=submit] {
 
 }
 
-/* Example
-#aboutme {
-    width: 45%;
-    margin-left: 10%;
-    margin-bottom: 20px;
-    padding: 50px;
-    background-color:#ffffff;
-    /*attempt to put space between heading
-    and border on below line 
-    padding-bottom: 30px
-    .conn {
-    float: right;
-    width: 12.5%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 53px;
-    margin-bottom: 20px;
-    padding: 20px;
-    background-color:#ffffff;
-    line-height: 1.5;
-}
-.connect{
-    border-style: groove;
-    border-color: gray;
-    background-color: #ffffff;
-    float: left;
-    width: 12.5%;
-    padding: 20px;
-    padding-bottom: 30px;
-*/
 
 @media screen and (max-width: 980px) {
 
@@ -285,7 +256,7 @@ h1{
           width: 100%;
         padding: 20px;
     }
-    }
+    
 
     header {
         position: static;
@@ -308,3 +279,4 @@ h1{
         width:50%;
         margin-top:40px;
     }
+}
