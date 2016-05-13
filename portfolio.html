@@ -1,94 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-     <title> Amreeta's Portfolio</title>
+<head>
+    <meta charset="UTF-8">
+    <title>Amreeta's Portfolio</title>
 
-         <!-- Refers to your css file -->
+
+  <meta name ="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    </head>
-    <body>
-        <header> 
-  
-             <h1>Amreeta Choudhury</h1>
+</head>
+<body>
 
-        <div class="mainlinks">
-            <a href="index.html" class="links">About</a>
-            <a href="portfolio.html" class="links">Portfolio</a>
-            <a href="contact.html" class="links">Contact </a>
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Amreeta Choudhury</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
         </div>
+    </header>
 
-        </header> 
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Portfolio</h1>
 
- <!-- Add a class called container on div tag -->
-  
-         <div class="main container">
+            <div class="work">
+                <img src="assets/images/business-q-g-640-480-10.jpg" alt="hangman">
 
-            <br>
+                <h3>Hangman</h3>
+            </div>
+            <div class="work">
+                <img src="assets/images/nature-q-c-640-480-6.jpg" alt="RPG Game">
 
-            <div class= "conn">
-                <section id= "connect">
-                    <h6> Connect with Me </h6>
+                <h3>RPG Game</h3>
+            </div>
+            <div class="work">
+                <img src="assets/images/nightlife-q-g-640-480-5.jpg" alt="Trivia Game">
 
-            <a href = "https://github.com/amreetac">
-            <img src="assets/images/github.jpg" alt="Github" />
-            </a>
+                <h3>Trivia Game</h3>
+            </div>
+            <div class="work">
+                <img src="assets/images/technics-q-g-640-480-9.jpg" alt="Rutgers Info Widget">
 
-            <a href = "https://www.linkedin.com/in/amreeta-choudhury-936aa350">
-            <img src="assets/images/linked.jpg" alt="Linkedin"/>
-            </a>
+                <h3>Rutgers Info Widget</h3>
+            </div>
+            <div class="work">
+                <img src="assets/images/technics-q-c-640-480-8.jpg" alt="Rock Paper Scissors">
 
-            <a href = "http://stackoverflow.com/users/5951626/amreeta-choudhury">
-            <img src="assets/images/stackoverflow.jpg" alt= "Stack Overflow"/>
-            </a>
-            </div> 
-                 </section>
-
-        <!--Section. Add an id called Portfolio on div tag -->
-   
-                 <section id="port">
-
-     <h5> Portfolio </h5>
-
-        <div class="Left-side">
-
-            <div class="Left-side-content">
-
-                <a class="image-box-left" href="#" title="Hangman">
-                    <img class="image-portfolio" src="assets/images/business-q-g-640-480-10.jpg" alt="Hangman" style="width:200px;height:200px;" />
-            
-                     <div class="image-bar">Hangman</div>
-                </a>
-
-                
-                 <a class="image-box-right" href="#" title="RPG Game">
-                    <img class="image-portfolio" src="assets/images/nature-q-c-640-480-6.jpg" alt="RPG Game" style="width:200px;height:200px;"  />
-                    <div class="image-bar">RPG Game</div>
-                </a>
-
-                <a class="image-box-left" href="#" title="Trivia Game">
-                    <img class="image-portfolio" src="assets/images/nightlife-q-g-640-480-5.jpg" alt="Trivia Game" style="width:200px;height:200px;">
-                    <div class="image-bar">Trivia Game</div>
-                </a>
-
-                <a class="image-box-right" href="#" title="Rutgers Info Widget">
-                    <img class="image-portfolio" src="assets/images/technics-q-g-640-480-9.jpg" alt="Rutgers Info Widget"  style="width:200px;height:200px;"/>
-                    <div class="image-bar">Rutgers Info Widget</div>
-                </a>
-
-                <a class="image-box-left" href="#" title="Rock Paper Scissors">
-                    <img class="image-portfolio" src="assets/images/technics-q-c-640-480-8.jpg" alt="Rock Paper Scissors"  style="width:200px;height:200px;" />
-                    <div class="image-bar">Rock Paper Scissors</div>
-                </a>
-
+                <h3>Rock Paper Scissors</h3>
             </div>
 
+        </section>
+
+        <section class="sidebar">
+            <div id="connect">
+                <h2>Connect with Me</h2>
+
+                <img src="assets/images/github.jpg" class="social" alt="Github">
+                <img src="assets/images/linked.jpg" class="social" alt="LinkedIn">
+                <img src="assets/images/stackoverflow.jpg" class="social" alt="Stack Overflow">
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            &copy; Copyright 2016 Your Name
         </div>
-
-</section>
-</body>
-
-
- <footer>
-    <p> @ Copyright 2016 Amreeta Choudhury </p>
     </footer>
+</body>
 </html>
