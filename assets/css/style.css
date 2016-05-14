@@ -55,9 +55,12 @@ h3 {
     position: fixed;
     width: 100%;
 }
+
+
+
 #logo {
     width: 45%;
-    height: 80px;
+    height: 60px;
     margin-top: 25px;
     background: #4aaaa5;
     float: left;
@@ -71,7 +74,7 @@ h3 {
 }
 nav {
     float: right;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 nav a {
     color: #999;
@@ -142,8 +145,6 @@ h3,
     border: 1px solid #ddd;
 }
 .bio-image {
-     width: 200px;
-    height: 200px;
     margin-top: 10px;
     float: left;
     margin-right: 25px;
@@ -279,4 +280,16 @@ input[type=submit] {
         width:300px;
     }
 
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+/* The element to apply the animation to */
+h1,h2,h3 {
+    background-color: white;
+    animation-name: example;
+    animation-duration: 4s;
 }
