@@ -144,7 +144,7 @@ h3,
     float: left;
     border: 1px solid #ddd;
 }
-.bio-image {
+#bio-image {
     margin-top: 10px;
     float: left;
     margin-right: 25px;
@@ -234,12 +234,21 @@ input[type=submit] {
     .sidebar {
     width: 40%;
     margin-right: 90px;
-        }
+    }
+
+
 
     .main-section {
     width: 40%;
     margin-left: 120px;
     margin-right: 20px;
+    }
+
+
+    #bio-image {
+        float:none;
+        width:500px;
+        height: 500px;
     }
 
     }
@@ -262,7 +271,13 @@ input[type=submit] {
        #logo {
         margin-left: 15px;
     }
-
+     
+        .sidebar {
+    width: 90%;
+    margin-left: 20px;
+    max-width: 650px;
+    float: left;
+        }
 
 
 
@@ -300,12 +315,11 @@ nav a {
 
 
 #sidebar {
-    width: 600px;
-    height: 39%;
-    margin-top: 10px;
+  width: 80%;
+    margin-right: 20px;
+    max-width: 650px;
+    float: left;
     }
-}
-}
 
 .work {
     width:100%;
